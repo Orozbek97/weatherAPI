@@ -7,7 +7,7 @@ function searchCity(){
         .then(response => response.json())
         .then(data => {
             Object.values(data).map(city => {
-                row.innerHTML += ` 
+                row.innerHTML = ` 
                 <div class="col-6">
                   <div class="info">
                      <h3>Country   : </h3> <h2> ${Object.values(city.country).join("")} </h2> </div>
