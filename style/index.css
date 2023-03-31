@@ -49,6 +49,7 @@ body {
         color: antiquewhite;
         border-radius: 10px;
         border: none;
+        cursor: pointer;
 
     }
 h1 {
