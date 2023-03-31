@@ -26,7 +26,16 @@ function searchCity(){
                   <div class="line"></div>
                   <div class="info-time">
                      <h3>Current Time :</h3> <h2> ${city.localtime} </h2></div>
-                </div>    
+                </div>  
+                <div class="col-6">
+                    <div class="box">
+                       <div class="position">
+                                <h3>Condition :</h3> <h2> ${data.current.condition.text}</h2>      
+                            <div class="line"></div>
+                                <img src="${data.current.condition.icon}" alt="" width="100px">    
+                       </div> 
+                    </div> 
+                </div> 
            `
             })
         })

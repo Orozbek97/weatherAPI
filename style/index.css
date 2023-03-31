@@ -86,4 +86,9 @@ h3 {
     background-color: #276aa0;
     margin: 5px 0;
 }
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
